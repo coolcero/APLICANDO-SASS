@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercaCosmos - Tienda Virtual</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/pruebb.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">CATEGORIAS</a></li>
+                <li><a href="#">CONTACTENOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1 style="color: white;">Vive una experiencia de compras fuera de este mundo</h1>
+            <p>
+                Disfruta de los miles de productos que traemos para ti desde los lugares mas escondidos de la galaxia y a los mejores precios. Aprovehca y viaja por todo este cosmos lleno de aventuras y ofertas interminables!
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">VER PRODUCTOS</button>
+                <button class="btn-secundario" type ="submit">CATEGORIAS</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="img/up.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Creamos una experiencia unica de compra que es de <span style="color: #800080; font-weight: bold;">OTRO MUNDO</span></h2>
+                <p style="color: black;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Logistica</h3>
+                    <p style="color: black;">
+                        Todos los enviós se aseguran bajo una alta prioridad de entrega
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Servicio al cliente</h3>
+                    <p style="color: black;">
+                        Tenemos un servicio al cliente especializado para brindarte la mejor experiencia
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Pago contra entrega</h3>
+                    <p style="color: black;">
+                        Te damos el mejor beneficio que es el de pagar en la puerta de tú casa
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            MercaCosmos - SebastianRZ &copy;Todos los derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
